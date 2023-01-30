@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "module": "commonjs",
-    "outDir": "dist",
+    "outDir": "../../../dist",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -15,5 +15,6 @@
     "strictNullChecks": true,
     "target": "es6"
   },
-  "include": ["src/**/*"]
+  "exclude": ["../../../node_modules"],
+  "include": ["../../../**/*.ts"]
 }

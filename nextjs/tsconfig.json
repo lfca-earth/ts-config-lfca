@@ -11,6 +11,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
+    "outDir": "../../../dist",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -19,6 +20,6 @@
     "strict": true,
     "target": "es5"
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "exclude": ["../../../node_modules"],
+  "include": ["next-env.d.ts", "../../../**/*.ts", "../../../**/*.tsx"]
 }
