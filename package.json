@@ -1,0 +1,10 @@
+{
+  "name": "ts-config-lfca",
+  "private": true,
+  "repository": "git@github.com:lfca-earth/ts-config-lfca.git",
+  "version": "1.0.0",
+  "dependencies": {},
+  "peerDependencies": {
+    "prettier": ">= 2"
+  }
+}

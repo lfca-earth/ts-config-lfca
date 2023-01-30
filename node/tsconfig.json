@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6"
+  },
+  "include": ["src/**/*"]
+}
