@@ -5,6 +5,6 @@
   "version": "1.0.0",
   "dependencies": {},
   "peerDependencies": {
-    "prettier": ">= 2"
+    "typescript": ">= 4"
   }
 }
