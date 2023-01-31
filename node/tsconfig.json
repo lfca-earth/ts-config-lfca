@@ -2,19 +2,12 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "allowUnreachableCode": false,
-    "baseUrl": "../../../",
     "experimentalDecorators": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "../../../dist",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "resolveJsonModule": true,
     "rootDir": "src",
     "sourceMap": true,
     "strictNullChecks": true
-  },
-  "exclude": ["../../../node_modules"],
-  "include": ["../../../**/*.ts"]
+  }
 }

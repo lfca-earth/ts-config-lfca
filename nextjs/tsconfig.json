@@ -2,15 +2,8 @@
   "extends": "@tsconfig/next/tsconfig.json",
   "compilerOptions": {
     "allowUnreachableCode": false,
-    "baseUrl": "../../../",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "../../../dist",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "strictNullChecks": true
-  },
-  "exclude": ["../../../node_modules"],
-  "include": ["next-env.d.ts", "../../../**/*.ts", "../../../**/*.tsx"]
+  }
 }
