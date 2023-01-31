@@ -1,5 +1,5 @@
 {
-  "name": "ts-config-lfca",
+  "name": "@lfca/ts-config",
   "private": true,
   "repository": "git@github.com:lfca-earth/ts-config-lfca.git",
   "version": "1.0.0",
