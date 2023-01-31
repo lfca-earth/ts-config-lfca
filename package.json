@@ -3,7 +3,11 @@
   "private": true,
   "repository": "git@github.com:lfca-earth/ts-config-lfca.git",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "@tsconfig/next": "1.0.5",
+    "@tsconfig/node16": "1.0.3",
+    "@tsconfig/recommended": "1.0.2"
+  },
   "peerDependencies": {
     "typescript": ">= 4"
   }
